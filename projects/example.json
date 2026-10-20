@@ -1,37 +1,37 @@
 {
-  "brand": "Food Shield Nepal",
-  "handle": "@food.shield.nepal",
+  "brand": "Health Care Nepal",
+  "handle": "@chandra_pokharel",
   "showWatermark": true,
   "fps": 30,
   "scenes": [
     {
       "id": "s1",
-      "duration": 4,
+      "duration": 7,
       "theme": "dark",
-      "chip": "Hotel सञ्चालक",
-      "headline": "हिजो एक जना customer ले [[पेट बिग्रियो]] भन्ने complain",
+      "chip": "स्वास्थ्य गुनासो",
+      "headline": "हिजोको सेलरोटीले मेरो [[Cholesterol बढ्यो]] भन्ने चिन्ता",
       "visual": {
         "type": "bubble",
         "title": "Customer · हिजो",
-        "tag": "Complain",
+        "tag": "Health Concern",
         "items": [
-          "पेट बिग्रियो..."
+          "सेलरोटीले कोलेस्ट्रोल बढायो..."
         ]
       }
     },
     {
       "id": "s2",
-      "duration": 4,
+      "duration": 10,
       "theme": "cream",
       "chip": "Rewind",
       "chipIcon": "⏪",
-      "headline": "बिहान ८ बजे: [[एउटै board]] मा raw chicken",
+      "headline": "भान्सामा: [[एउटै तेल]] धेरै पटक दोहोर्‍याएर प्रयोग",
       "visual": {
         "type": "cards",
         "items": [
-          "🍗 | Raw chicken",
-          "🥗 | Salad",
-          "🔪 | Knife"
+          "🍳 | Reused Oil",
+          "🍩 | Selroti",
+          "🔥 | High Heat"
         ]
       }
     },
@@ -39,28 +39,33 @@
       "id": "s3",
       "duration": 4,
       "theme": "green",
-      "chip": "३ कुरा",
-      "headline": "[[छुट्टाछुट्टै]] board र चक्कु",
+      "chip": "सही तरिका",
+      "headline": "[[ताजा तेल]] र सही तापक्रममा पकाउने",
       "visual": {
         "type": "compare",
         "items": [
-          "🥩 | Raw | red",
-          "🥬 | Ready-to-eat | green"
+          "🛢️ | Reused Oil | red",
+          "🌻 | Fresh Oil | green"
         ]
       }
     },
     {
       "id": "s4",
-      "duration": 5,
+      "duration": 15,
       "theme": "green",
       "chip": "३ कुरा",
       "headline": "यी ३ कुरा याद राख्नुहोस्",
       "visual": {
         "type": "checklist",
         "items": [
-          "छुट्टाछुट्टै board र चक्कु",
-          "Raw meat छोएपछि हात धुने",
-          "Fridge मा तल raw, माथि cooked"
+          "एक पटक प्रयोग भएको तेल पुनः प्रयोग नगर्ने",
+          "धेरै नतताई ठिकै तापक्रममा फ्राइ गर्ने",
+          "पकाएपछि थप तेल सोस्न Paper towel प्रयोग गर्ने"
+        ],
+        "times": [
+          2.7,
+          6,
+          10
         ]
       }
     },
@@ -68,13 +73,13 @@
       "id": "s5",
       "duration": 4,
       "theme": "cream",
-      "chip": "रङअनुसार board",
-      "headline": "मुख्य कुरा: [[एउटा board, एउटै काम]]",
+      "chip": "स्वस्थ बानी",
+      "headline": "मुख्य कुरा: [[ताजा तेल, स्वस्थ जीवन]]",
       "visual": {
         "type": "equation",
         "title": "मुख्य कुरा",
         "items": [
-          "एउटा board = एउटै काम"
+          "ताजा तेल = स्वस्थ मुटु"
         ]
       }
     },
@@ -82,14 +87,19 @@
       "id": "s6",
       "duration": 3,
       "theme": "orange",
-      "chip": "Audit र Training",
+      "chip": "Health & Awareness",
       "headline": "यस्तै सानातिना कुरा [[ठूलो फरक]] पार्छ",
       "visual": {
         "type": "cards",
         "items": [
-          "🔪 | Board",
-          "🧼 | Hands",
-          "🧊 | Fridge"
+          "🛢️ | Fresh Oil",
+          "🌡️ | Temperature",
+          "🧻 | Drain Oil"
+        ],
+        "times": [
+          0.1,
+          null,
+          null
         ]
       }
     }
